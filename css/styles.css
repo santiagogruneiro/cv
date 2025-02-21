@@ -169,11 +169,15 @@ body {
 .c-progress {
     width: 40%;
 }
-
-.n-progress {
-    width: 85%;
+.l-progress {
+    width: 60%;
 }
-
+.n-progress {
+    width: 75%;
+}
+.a-progress {
+    width: 70%;
+}
 .w-progress {
     width: 85%;
 }

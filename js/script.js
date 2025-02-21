@@ -11,7 +11,7 @@ function createPDF(e) {
     filename: 'SantiagoGruneiroCV.pdf',
     image: { type: 'jpeg', quality: 1 },
     html2canvas: { scale: 1 },
-    jsPDF: { unit: 'mm', format: [400, 510], orientation: 'portrait' }
+    jsPDF: { unit: 'mm', format: [410, 765], orientation: 'portrait' }
   };
   html2pdf().set(opt).from(pdf).save();
   setTimeout(() => {
